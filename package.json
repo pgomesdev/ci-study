@@ -1,0 +1,23 @@
+{
+  "name": "ci-study",
+  "version": "1.0.0",
+  "description": "This repo contains some simple functions to run a simple CI test with Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgomesdev/ci-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgomesdev/ci-study/issues"
+  },
+  "homepage": "https://github.com/pgomesdev/ci-study#readme",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
