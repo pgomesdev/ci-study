@@ -6,4 +6,10 @@ describe('sum test', () => {
 
     expect(result).toBe(4);
   });
+
+  it('should sum two values', () => {
+    const result = sum(1, 3);
+
+    expect(result).toBe(4);
+  });
 });
