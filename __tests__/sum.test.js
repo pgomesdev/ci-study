@@ -8,8 +8,8 @@ describe('sum test', () => {
   });
 
   it('should sum two values', () => {
-    const result = sum(1, 3);
+    const result = sum(3, 4);
 
-    expect(result).toBe(4);
+    expect(result).toBe(7);
   });
 });
