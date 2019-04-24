@@ -10,6 +10,6 @@ describe('sum test', () => {
   it('should sum two values', () => {
     const result = sum(1, 3);
 
-    expect(result).toBe(2);
+    expect(result).toBe(4);
   });
 });
